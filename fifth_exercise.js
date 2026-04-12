@@ -1,10 +1,11 @@
-function searchUser(callback) {
-    setTimeout(callback, 2500);
+
+// fixed!
+
+function searchUser(ms, callback) {
+    return setTimeout(() => {
+        const user = { name: "Cristiano", age: 21 }
+        callback(user);
+    }, ms);
 }
 
-searchUser(() => {
-    console.log({
-        name: "Cristiano",
-        age: 21,
-    })
-});
+searchUser(2000, user => console.log(user));

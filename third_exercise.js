@@ -1,5 +1,7 @@
-function sum(a, b, callback) {
-    callback(a,b)
+function calculate(a, b, callback) {
+    return callback(a,b);
 }
 
-sum(100,5,(a, b) => console.log(a * b))
+const result = calculate(5000,5,(a, b) => a * b);
+
+console.log(result)
