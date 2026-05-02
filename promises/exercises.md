@@ -90,6 +90,7 @@ Use as mesmas tarefas acima
 👉 Veja qual resultado chega primeiro
 
 🧠 Nível 5 — Avançado (nível pleno)
+
 🔟 Criar seu próprio “fetch”
 
 Crie uma função:
